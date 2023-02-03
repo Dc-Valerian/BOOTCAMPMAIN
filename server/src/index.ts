@@ -1,6 +1,6 @@
 import express, { Application } from "express"
 import { BcConnection } from "../config/db";
-import BootCampConnection from "./app";
+import {BootCampConnection} from "./app";
 
 const PORT:number = 6055;
 

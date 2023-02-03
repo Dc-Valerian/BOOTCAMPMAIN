@@ -26,7 +26,7 @@ const productSchema:Schema<IProduct> = new Schema({
             required:true
         }
     }
-},{timeStamps:true,versionKey:true})
+},{timeStamps:true,versionKey:false})
 
 const ProductModel = model<IProduct>("Product",productSchema)
 
